@@ -1,4 +1,4 @@
-        program exc_1 
+        program fizzbuzz
 
         implicit none
         
@@ -8,7 +8,7 @@
         print *,"Please enter an integer."
         read *, userInt
          
-        print *, userInt/3, userInt/5
+        !print *, userInt/3, userInt/5
         
         if (modulo(userInt, 3) == 0 .and. modulo(userInt, 5) == 0) &
         then 
